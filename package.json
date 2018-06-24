@@ -1,0 +1,22 @@
+{
+    "name": "whyte",
+    "displayName": "Whyte",
+    "description": "Color theme for VS Code that I like",
+    "version": "0.0.1",
+    "publisher": "ihartrafimovich",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Whyte",
+                "uiTheme": "vs",
+                "path": "./themes/Whyte-color-theme.json"
+            }
+        ]
+    }
+}
