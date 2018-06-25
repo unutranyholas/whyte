@@ -2,7 +2,7 @@
     "name": "whyte",
     "displayName": "Whyte",
     "description": "Color theme for VS Code that I like",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "publisher": "ihartrafimovich",
     "repository": "https://github.com/unutranyholas/whyte",
     "engines": {
