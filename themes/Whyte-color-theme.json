@@ -628,7 +628,6 @@
         "punctuation.definition.metadata.markdown",
         "markup.heading.setext",
         "beginning.punctuation.definition.quote.markdown",
-        "punctuation.definition.markdown"
       ],
       "settings": {
         "foreground": "#00000044",
@@ -643,7 +642,10 @@
       }
     },
     {
-      "scope": ["markup.inline.raw.string.markdown"],
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown",
+      ],
       "settings": {
         "foreground": "#599c3a",
         "fontStyle": ""
