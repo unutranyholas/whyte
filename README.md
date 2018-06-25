@@ -1,4 +1,4 @@
 # Whyte
-Ligth color theme for Vs Code that I like.
+Light color theme for VS Code that I like.
 (Work in progress)
 
