@@ -466,7 +466,12 @@
         "punctuation.separator.array.json",
         "punctuation.separator.dictionary.pair.json",
         "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json"
+        "punctuation.support.type.property-name.end.json",
+        "punctuation.separator.dictionary.key-value.jsonc",
+        "punctuation.separator.array.jsonc",
+        "punctuation.separator.dictionary.pair.jsonc",
+        "punctuation.support.type.property-name.begin.jsonc",
+        "punctuation.support.type.property-name.end.jsonc"
       ],
       "settings": {
         "foreground": "#434d6852",
@@ -567,7 +572,9 @@
         "punctuation.definition.string.template.begin.js",
         "punctuation.definition.string.template.end.js",
         "punctuation.definition.string.begin.json",
-        "punctuation.definition.string.end.json"
+        "punctuation.definition.string.end.json",
+        "punctuation.definition.string.begin.jsonc",
+        "punctuation.definition.string.end.jsonc"
       ],
       "settings": {
         "foreground": "#599c3a",
@@ -578,6 +585,7 @@
       "name": "Need to be black: property names, reserved words etc",
       "scope": [
         "support.type.property-name.json",
+        "support.type.property-name.jsonc",
         "entity.other.attribute-name",
         "variable",
         "support",
