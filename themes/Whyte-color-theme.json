@@ -430,11 +430,11 @@
     {
       "name": "JSX, HTML markup",
       "scope": [
-        "support.class.component.js",
-        "punctuation.definition.tag.begin.js",
-        "punctuation.definition.tag.end.js",
         "entity.name.tag",
         "punctuation.definition.tag",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+        "support.class.component",
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end"
       ],
@@ -446,22 +446,22 @@
     {
       "name": "Unimportant stuff",
       "scope": [
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js",
-        "punctuation.separator.comma.js",
-        "punctuation.terminator.statement.js",
         "punctuation.section.embedded.begin",
         "punctuation.section.embedded.end",
-        "punctuation.separator.parameter.js",
-        "meta.brace.round.js",
-        "meta.block.js",
-        "punctuation.definition.parameters.begin.js",
-        "punctuation.definition.parameters.end.js",
-        "punctuation.definition.binding-pattern.object.js",
-        "punctuation.separator.key-value.js",
-        "meta.class.js",
-        "punctuation.accessor.js",
-        "punctuation.destructuring.js",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.separator.comma",
+        "punctuation.terminator.statement",
+        "punctuation.separator.parameter",
+        "meta.brace.round",
+        "meta.block",
+        "punctuation.definition.parameters.begin",
+        "punctuation.definition.parameters.end",
+        "punctuation.definition.binding-pattern.object",
+        "punctuation.separator.key-value",
+        "meta.class",
+        "punctuation.accessor",
+        "punctuation.destructuring",
         "punctuation.separator.dictionary.key-value.json",
         "punctuation.separator.array.json",
         "punctuation.separator.dictionary.pair.json",
@@ -479,15 +479,15 @@
       }
     },
     {
-      "scope": "punctuation.definition.block.js",
+      "scope": "punctuation.definition.block",
       "settings": {}
     },
     {
       "name": "Brackets I'd like to highlight",
       "scope": [
-        "meta.brace.square.js",
-        "meta.objectliteral.js",
-        "punctuation.definition.binding-pattern.object.js"
+        "meta.brace.square",
+        "meta.objectliteral",
+        "punctuation.definition.binding-pattern.object"
       ],
       "settings": {
         "foreground": "#000000",
@@ -497,9 +497,9 @@
     {
       "name": "Functions",
       "scope": [
-        "entity.name.function.js",
-        "storage.type.function.arrow.js",
-        "support.function"
+        "support.function",
+        "entity.name.function",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "foreground": "#0087D1",
@@ -509,12 +509,12 @@
     {
       "name": "Variables",
       "scope": [
-        "variable.parameter.js",
         "variable.other",
-        "variable.object.property.js",
         "support.class",
-        "entity.other.inherited-class.js",
-        "support.variable.property.dom.js"
+        "variable.parameter",
+        "variable.object.property",
+        "entity.other.inherited-class",
+        "support.variable.property.dom"
       ],
       "settings": {
         "foreground": "#ac3059",
@@ -527,10 +527,10 @@
         "support.constant",
         "constant.language",
         "variable.language",
-        "support.variable.dom.js",
-        "support.class.console.js",
         "entity.name.type",
-        "support.type.object.module.js"
+        "support.variable.dom",
+        "support.class.console",
+        "support.type.object.module"
       ],
       "settings": {
         "foreground": "#BD8E00",
@@ -538,7 +538,7 @@
       }
     },
     {
-      "scope": "variable.other.readwrite.js",
+      "scope": "variable.other.readwrite",
       "settings": {}
     },
     {
@@ -552,10 +552,10 @@
     {
       "name": "Math stuff",
       "scope": [
-        "keyword.operator.relational.js",
-        "keyword.operator.arithmetic.js",
         "constant.numeric",
-        "meta.delimiter.decimal.period.js"
+        "keyword.operator.relational",
+        "keyword.operator.arithmetic",
+        "meta.delimiter.decimal.period"
       ],
       "settings": {
         "foreground": "#9125da",
@@ -566,11 +566,11 @@
       "name": "Strings",
       "scope": [
         "string",
-        "punctuation.definition.string.begin.js",
-        "punctuation.definition.string.end.js",
-        "string.template.js",
-        "punctuation.definition.string.template.begin.js",
-        "punctuation.definition.string.template.end.js",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "string.template",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end",
         "punctuation.definition.string.begin.json",
         "punctuation.definition.string.end.json",
         "punctuation.definition.string.begin.jsonc",
@@ -582,10 +582,8 @@
       }
     },
     {
-      "name": "Need to be black: property names, reserved words etc",
+      "name": "Must be black: property names, reserved words etc",
       "scope": [
-        "support.type.property-name.json",
-        "support.type.property-name.jsonc",
         "entity.other.attribute-name",
         "variable",
         "support",
@@ -595,13 +593,18 @@
         "entity",
         "constant",
         "emphasis",
+        "meta.tag",
+        "entity.other.attribute-name",
+        "entity.name.tag.yaml",
+        "punctuation.definition.block.sequence.item.yaml",
+        "support.type.property-name.json",
+        "support.type.property-name.jsonc",
         "support.type.property-name.css",
         "support.type.vendored.property-name.css",
-        "storage.type.class.js",
-        "keyword.operator.logical.js",
-        "meta.tag entity.other.attribute-name",
-        "punctuation.definition.block.js",
-        "keyword.operator.assignment.js"
+        "storage.type.class",
+        "keyword.operator.logical",
+        "punctuation.definition.block",
+        "keyword.operator.assignment"
       ],
       "settings": {
         "foreground": "#000000",
