@@ -414,7 +414,7 @@
         "punctuation.definition.tag",
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end",
-        "support.class.component",
+        "support.class.component"
       ],
       "settings": {
         "foreground": "#f17a0b",
