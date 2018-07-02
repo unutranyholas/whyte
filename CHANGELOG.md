@@ -4,7 +4,7 @@ There I'm trying to follow recomendation from [Keep a Changelog](http://keepacha
 
 ## [Unreleased]
 
-## [0.1.5] - 2018-06-25
+## [0.2.0] - 2018-06-25
 ### Added
 - YAML support
 - Typescript support
